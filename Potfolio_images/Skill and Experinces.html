@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="skills and Expirience.css">
+</head>
+<body>
+  
+  <header>
+    <nav class="navbar">
+      <ul class="nav-list">
+          <li><a href="project.html"><span class="tad">PROJECT AND SKILLS</span></a>
+              <!-- Dropdown menu for Projects and Skills -->
+              <ul class="dropdown-content">
+                  <li><a href="education.html">Education</a></li>
+                  <li><a href="project.html">Project</a></li>
+                  <li><a href="skills.html">Skills</a></li>
+              </ul>
+          </li>
+          <li><a href="hackathon.html"><span class="tad">HACKERTHON</span></a></li>
+          <li><a href="contact.html"><span class="tad">CONTACT ME</span></a></li>
+      </ul>
+  </nav>
+  
+</header>
+
+    
+  <section class="sectionb">
+      <br><br><br><br><br><br><br><br><br><br><br>
+
+<h2>Education </h2>
+<b>Education Background</b><br>
+
+
+  Continued Professional Development <br> 
+  Online Course   <br>
+  PLP, SCRIMBA.COM and IBM <br>
+  January, 2023  <br>
+  Picked up some great skills and knowledge through this course. <br>
+
+<br><br>
+
+Bachelor of Science in Applied Computer science <br> 
+Kisii University, Kisii, Kenya  <br>
+September, 2024 - December, 2027 <br>
+
+<br><br>
+
+Kenya Certificate of Secondary Education(KCSE) <br>
+Kisayani Boys, Makueni, Kenya  <br>
+January, 2019 - November, 2023  <br>
+
+ <br><br>
+Kenya Certificate of Primary Education (KCPE)  <br>
+  November, 2019  <br>
+  Gained valuable insights from this experience. <br>
+
+    <!-- Hover Trigger for Right Side -->
+    <div class="right-hover-area"></div>
+    <!-- Content Appearing on the Right -->
+    <div class="slide-article">
+          
+    <style>
+        
+      /* General body styles */
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: rgb(102, 39, 39);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
+        padding: 20px;
+      }
+      
+      /* Container styling */
+      .container {
+        display: flex;
+        flex-wrap: wrap; /* Allow wrapping */
+        gap: 16px; /* Space between items */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        max-width: 1000px; /* Restrict maximum width */
+      }
+      
+      /* Heading styles */
+      .container h3 {
+        font-size: 24px;
+        color: #fff;
+        margin-bottom: 20px;
+        width: 100%;
+      }
+      
+      /* Flexbox for items */
+      .flex-item {
+        position: relative;
+        width: 200px; /* Fixed width */
+        height: 250px; /* Fixed height */
+        overflow: hidden;
+        text-align: center;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: white;
+      }
+      
+      /* Front image (default view) */
+      .flex-item .front {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensures proper scaling without distortion */
+        transition: opacity 0.5s ease;
+        z-index: 1;
+      }
+      
+      /* Back image (hidden by default) */
+      .flex-item .back {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensures proper scaling without distortion */
+        opacity: 0; /* Initially hidden */
+        transition: opacity 0.5s ease;
+        z-index: 0;
+      }
+      
+      /* Hover effect: show the back image */
+      .flex-item:hover .front {
+        opacity: 0;
+      }
+      
+      .flex-item:hover .back {
+        opacity: 1;
+      }
+      
+      /* Paragraph styling */
+      .flex-item p {
+        position: absolute;
+        bottom: 0; /* Stick to the bottom of the flex box */
+        left: 0;
+        width: 100%;
+        color: #333;
+        font-size: 14px;
+        background-color: rgba(255, 255, 255, 0.9); /* Subtle background */
+        padding: 5px;
+        box-sizing: border-box;
+        z-index: 2; /* Ensure it stays above the images */
+      }
+      
+          </style>
+      
+          <section>
+      
+              <div class="container">
+                <h3>Skill Foundry</h3>
+            
+                <div class="flex-item">
+                    <img src="scrimba.png" alt="scrimba" class="front">
+                    <img src="scrimba2.jpg" alt="Back View" class="back">
+                    <p>Learning Python</p>
+                </div>    
+            
+                <div class="flex-item">
+                    <img src="IBM.png" alt="IBM" class="front">
+                    <img src="IBM1.png" alt="Back View" class="back">
+                    <p>Learning Cyber Security</p>
+                </div>
+            
+                <div class="flex-item">
+                    <img src="PlP.jpg" alt="PLP" class="front">
+                    <img src="PLP4.jpeg" alt="Back View" class="back">
+                    <p>Becoming a Software Engineer</p>
+                </div>
+            
+                <div class="flex-item">
+                    <img src="TRY.png" alt="TryHackMe" class="front">
+                    <img src="TRY1.png" alt="Back View" class="back">
+                    <p>Practicing Hacking</p>
+                </div>
+            </div>
+            
+            
+            </section>
+</div>
+  </section>
+
+ 
+    <!-- Download CV Button -->
+    <a href="Brian's CV.docx" class="download-btn" download>Download My CV</a>
+
+    <section class="button-container">
+      <button class="fill-button" onclick="window.location.href='explore.html'">Explore More</button>
+      <button class="next-button" onclick="window.location.href='hackathon.html'">Next</button>
+  </section>
+  <div class="project">
+<h1><b>CHECK OUT MY PROJECT</b></h1>
+  </div>
+
+
+
+
+<section class="project">
+
+  <div class="container">
+    <h3>Skill Foundry</h3>
+
+    <div class="flex-item">
+        <img src="scrimba.png" alt="scrimba" class="front">
+        <img src="scrimba2.jpg" alt="Back View" class="back">
+        <p>Learning Python</p>
+    </div>    
+
+    <div class="flex-item">
+        <img src="IBM.png" alt="IBM" class="front">
+        <img src="BM1.png" alt="Back View" class="back">
+        <p>Learning Cyber Security</p>
+    </div>
+
+    <div class="flex-item">
+        <img src="PlP.jpg" alt="PLP" class="front">
+        <img src="I" alt="Back View" class="back">
+        <p>Becoming a Software Engineer</p>
+    </div>
+
+    <div class="flex-item">
+        <img src="TRY.png" alt="TryHackMe" class="front">
+        <img src="TRY1.png" alt="Back View" class="back">
+        <p>Practicing Hacking</p>
+    </div>
+</div>
+
+
+</section>
+</body>
+</html>

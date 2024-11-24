@@ -1,0 +1,72 @@
+/* General reset and body styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Navbar container styling */
+.navbar {
+    background-color: #333; /* Dark background for navbar */
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: center; /* Center the items horizontally */
+    padding: 0;
+}
+
+/* Navigation list styling */
+.nav-list {
+    list-style-type: none; /* Remove bullets */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display nav items inline */
+}
+
+.nav-list li {
+    position: relative; /* Allows dropdown to be positioned relative to parent */
+}
+
+/* Links styling */
+.nav-list a {
+    color: white; /* White text */
+    text-decoration: none; /* Remove underline */
+    display: block;
+    padding: 14px 20px; /* Spacing for clickable area */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.nav-list a:hover {
+    background-color: #575757; /* Change background on hover */
+}
+
+/* Dropdown menu styles */
+.dropdown-content {
+    display: none; /* Hide dropdown by default */
+    position: absolute; /* Position dropdown below parent */
+    top: 100%; /* Align dropdown with parent tab */
+    left: 0;
+    background-color: #444; /* Dark dropdown background */
+    min-width: 160px; /* Set dropdown width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.dropdown-content li {
+    width: 100%; /* Make dropdown items take full width */
+}
+
+.dropdown-content a {
+    padding: 10px 20px; /* Padding inside dropdown items */
+    color: white; /* White text */
+    background-color: #444; /* Match dropdown background */
+    text-align: left; /* Align text to the left */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.dropdown-content a:hover {
+    background-color: #575757; /* Change background on hover */
+}
+
+/* Show dropdown when hovering over parent */
+.dropdown:hover .dropdown-content {
+    display: block; /* Show dropdown */
+}

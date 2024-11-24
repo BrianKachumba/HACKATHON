@@ -1,0 +1,164 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  background: url('pexels-garrettmorrow-1337247.jpg') no-repeat center center fixed; /* Set the background image */
+  background-size: cover;
+    
+
+}
+
+
+
+/* Styling of the header*/
+
+header {
+  position: sticky;
+  top: 0;
+  padding: 10px 20px;
+  z-index: 1000;
+  }
+  
+  
+  nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  }
+  
+  
+  .tad {
+  padding: 7px;
+  color: white;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 1s ease, opacity 1s ease;
+  }
+  
+  
+  .tad:hover {
+  color: whitesmoke; 
+  }
+  
+  nav:hover .tad {
+  opacity: 0.3;
+  }
+  
+  nav:hover .tad:hover {
+  opacity: 1;
+  }
+  
+
+
+
+  
+      /* Button Styling */
+      .fill-button{
+        position: absolute;
+        top: 140px;
+        left: 0;
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        color: white;
+        z-index: 1000;
+        background-color: maroon;
+        text-decoration: none;
+        border: none;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius:25px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+  
+      .fill-button:hover {
+        background-color: #600000; /* Darker maroon on hover */
+      }
+
+
+
+
+
+      /* Button Styling */
+      .next-button{
+        position: absolute;
+        top: 200px;
+        left: 0;
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        color: white;
+        z-index: 1000;
+        background-color: maroon;
+        text-decoration: none;
+        border: none;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius:25px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+  
+      .next-button:hover {
+        background-color: #600000; /* Darker maroon on hover */
+      }
+
+
+
+
+      
+      /* Button Styling */
+      .github-button{
+        position: absolute;
+        top: 80px;
+        left: 0;
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        color: white;
+        z-index: 1000;
+        background-color: maroon;
+        text-decoration: none;
+        border: none;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius:25px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+  
+      .next-button:hover {
+        background-color: #600000; /* Darker maroon on hover */
+      }
+
+
+
+
+      
+.aboutme{
+  position: absolute;
+  margin-bottom: 0;
+  bottom: 0;
+
+  display: flex; /* Enables Flexbox */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  min-height: 40vh; /* Full viewport height */
+  color: beige;
+
+  margin: 0; /* Remove default margins */
+  background-color: black;
+}
+
+.me1{
+display: flex;
+padding-right: 50px;
+
+}
+.m3{
+display: flex;
+
+}
+

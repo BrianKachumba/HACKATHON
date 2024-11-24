@@ -1,0 +1,374 @@
+body{background: url('pexels-vlada-karpovich-4452502.jpg') no-repeat center center fixed; /* Set the background image */
+background-size: cover;
+
+}
+
+
+
+
+/* Styling of the header*/
+
+header {
+position: sticky;
+top: 0;
+padding: 10px 20px;
+z-index: 1000;
+}
+
+
+nav {
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+
+
+.tad {
+padding: 7px;
+color: white;
+font-size: 1.2rem;
+text-transform: uppercase;
+cursor: pointer;
+transition: color 1s ease, opacity 1s ease;
+}
+
+
+.tad:hover {
+color: whitesmoke; 
+}
+
+nav:hover .tad {
+opacity: 0.3;
+}
+
+nav:hover .tad:hover {
+opacity: 1;
+}
+
+
+
+
+
+
+
+
+.flex-container {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f4f4f4;
+  }
+  
+  .flex-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box {
+    width: 200px;
+    height: 300px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    opacity: 0; /* Hide the box initially */
+    transform: scale(0.8); /* Shrink effect */
+    transition: opacity 0.4s ease, transform 0.4s ease; /* Smooth effect */
+  }
+  
+  .box:hover {
+    opacity: 1; /* Reveal on hover */
+    transform: scale(1); /* Grow to full size */
+  }
+  
+  .box img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+  }
+  
+  .box p {
+    margin: 10px;
+    color: #333;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0; /* Hide text initially */
+    transition: opacity 0.3s ease;
+  }
+  
+  .box:hover p {
+    opacity: 1; /* Reveal text when hovered */
+  }
+
+
+
+
+  /* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0);
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  text-align: center;
+}
+
+
+
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif; /* Sets the font for the text */
+  margin: 0; /* Removes default margin around the body */
+  padding: 0; /* Removes default padding around the body */
+  overflow: hidden; /* Prevents scrollbars caused by off-screen elements */
+}
+
+.section{
+  height: 100vh; /* Makes the section take up the full viewport height */
+  display: flex; /* Enables flexbox for centering content */
+  justify-content: center; /* Horizontally centers the text content */
+  align-items: center; /* Vertically centers the text content */
+  position: relative; /* Sets up a positioning context for child elements */
+  background-color: rgba(0, 0, 0, 0); /* Light background color for the section */
+}
+
+h2 {
+  font-size: 2.5rem; /* Sets a large font size for the heading */
+  margin-bottom: 1rem; /* Adds spacing below the heading */
+}
+
+p {
+  font-size: 1.2rem; /* Sets the font size for the paragraph */
+  max-width: 600px; /* Limits the width of the paragraph for readability */
+  text-align: center; /* Centers the text content */
+  z-index: 2;
+}
+
+/* Hover Area Styles */
+.right-hover-area {
+  position: absolute; /* Positions the hover area relative to the section */
+  top: 0; /* Aligns the hover area with the top of the section */
+  right: 0; /* Aligns the hover area with the right side of the section */
+  width: 50%; /* Makes the hover area cover the right half of the section */
+  height: 100%; /* Stretches the hover area to the full height of the section */
+  z-index: 2; /* Places the hover area above the background but below text */
+  pointer-events: auto; /* Allows the hover area to detect mouse events */
+  background: rgba(0, 0, 0, 0); /* Transparent background, purely for hover detection */
+}
+
+/* Right Image Styles */
+.slide-article {
+  position: absolute; /* Positions the image relative to the section */
+  top: 0; /* Centers the image vertically */
+  right: 0; /* Aligns the image with the right side of the section */
+  width: 50%; /* Restricts the image width to fit in the right half */
+  height: 100vh; /* Maintains the image's aspect ratio */
+  opacity: 0; /* Hides the image initially */
+  transform: translateX(80%); /* Moves the image off-screen to the right */
+  transition: opacity 1s ease, transform 1s ease; /* Smooth appearance and sliding effect */
+  z-index: 1; /* Ensures the image appears below the text but above the background */
+}
+
+/* Hover Effect */
+.right-hover-area:hover ~ .slide-article {
+  opacity: 1; /* Makes the image fully visible */
+  transform: translateX(0); /* Slides the image into view */
+}
+
+
+
+
+
+
+      /* Button Styling */
+      .download-btn {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        color: white;
+        z-index: 1000;
+        background-color: maroon;
+        text-decoration: none;
+        border: none;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius:25px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+  
+      .download-btn:hover {
+        background-color: #600000; /* Darker maroon on hover */
+      }
+
+
+
+
+
+
+
+
+      /* Button Styling */
+      .fill-button{
+        position: absolute;
+        top: 140px;
+        left: 0;
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        color: white;
+        z-index: 1000;
+        background-color: maroon;
+        text-decoration: none;
+        border: none;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius:25px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+  
+      .fill-button:hover {
+        background-color: #600000; /* Darker maroon on hover */
+      }
+
+
+
+
+
+      /* Button Styling */
+      .next-button{
+        position: absolute;
+        top: 200px;
+        left: 0;
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        color: white;
+        z-index: 1000;
+        background-color: maroon;
+        text-decoration: none;
+        border: none;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius:25px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+  
+      .next-button:hover {
+        background-color: #600000; /* Darker maroon on hover */
+      }
+
+
+
+
+
+h2{
+  color: gold;
+
+
+}
+h3{
+  color: gold;
+}
+
+
+
+
+
+
+
+/* Navbar container styling */
+.navbar {
+  background-color: #333; /* Dark background for navbar */
+  display: flex; /* Flexbox for horizontal layout */
+  justify-content: center; /* Center the items horizontally */
+  padding: 0;
+}
+
+/* Navigation list styling */
+.nav-list {
+  list-style-type: none; /* Remove bullets */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Display nav items inline */
+}
+
+.nav-list li {
+  position: relative; /* Allows dropdown to be positioned relative to parent */
+}
+
+/* Links styling */
+.nav-list a {
+  color: white; /* White text */
+  text-decoration: none; /* Remove underline */
+  display: block;
+  padding: 14px 20px; /* Spacing for clickable area */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.nav-list a:hover {
+  background-color: #575757; /* Change background on hover */
+}
+
+/* Dropdown menu styles */
+.dropdown-content {
+  display: none; /* Hide dropdown by default */
+  position: absolute; /* Position dropdown below parent */
+  top: 100%; /* Align dropdown with parent tab */
+  left: 0;
+  background-color: #444; /* Dark dropdown background */
+  min-width: 160px; /* Set dropdown width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+a{
+  text-decoration: none;
+}
+.dropdown-content li {
+  width: 100%; /* Make dropdown items take full width */
+}
+
+.dropdown-content a {
+  padding: 10px 20px; /* Padding inside dropdown items */
+  color: white; /* White text */
+  background-color: #444; /* Match dropdown background */
+  text-align: left; /* Align text to the left */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.dropdown-content a:hover {
+  background-color: #575757; /* Change background on hover */
+}
+
+/* Show dropdown when hovering over parent */
+.dropdown:hover .dropdown-content {
+  display: block; /* Show dropdown */
+}
